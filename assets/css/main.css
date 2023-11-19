@@ -1,15 +1,3 @@
-/**
-* Template Name: Logis
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# Set main reusable colors and fonts using CSS variables
-# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
---------------------------------------------------------------*/
 /* Fonts */
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -158,8 +146,9 @@ section {
 }
 
 @media screen and (max-width: 767px) {
+
   /* Change font size for small screens */
-  .breadcrumbs .page-header h2  {
+  .breadcrumbs .page-header h2 {
     font-size: 20px;
   }
 }
@@ -375,8 +364,9 @@ section {
     border-radius: 4px;
     color: #fff;
   }
+
   .get-contact,
-  .get-contact:focus{
+  .get-contact:focus {
     background: var(--color-primary);
     padding: 8px 20px;
     margin-left: 30px;
@@ -391,6 +381,7 @@ section {
     background: #2756ff;
 
   }
+
   .navbar .get-a-quote:hover,
   .navbar .get-a-quote:focus:hover {
     color: #fff;
@@ -622,12 +613,14 @@ section {
 .featured-services .service-item:hover .icon i {
   color: var(--color-primary);
 }
+
 .status-icon {
   font-size: 60px;
   color: #001f8d;
   padding: 1;
   cursor: pointer;
 }
+
 .stats-item:hover .status-icon {
   color: var(--color-primary);
 }
@@ -636,6 +629,7 @@ section {
 .stats-item {
   cursor: pointer;
 }
+
 .featured-services .service-item .title {
   font-weight: 700;
   margin-bottom: 10px;
@@ -1756,7 +1750,7 @@ section {
   padding: 0;
 }
 
-.points  dt{
+.points dt {
   padding: 5px 0;
   display: flex;
   align-items: center;
@@ -1783,11 +1777,11 @@ section {
   background-position: center;
   position: relative;
   color: rgba(255, 255, 255, 0.8);
-  overflow: hidden; 
+  overflow: hidden;
   display: flex;
-  align-items: center; 
-  justify-content: center; 
-  text-align: center; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   padding: 0 20px;
 }
 
@@ -1795,8 +1789,10 @@ section {
   0% {
     transform: translateX(0);
   }
+
   100% {
-    transform: translateX(-100%); /* Slide from left to right */
+    transform: translateX(-100%);
+    /* Slide from left to right */
   }
 }
 
@@ -1918,13 +1914,15 @@ section {
 
 @media only screen and (max-width: 390px) {
   .footer .footer-info .logo span {
-    font-size: 18px; /* Adjust the font size for small screens */
+    font-size: 18px;
+    /* Adjust the font size for small screens */
   }
 }
 
 @media only screen and (max-width: 280px) {
   .footer .footer-info .logo span {
-    font-size: 14px; /* Adjust the font size for small screens */
+    font-size: 14px;
+    /* Adjust the font size for small screens */
   }
 }
 
